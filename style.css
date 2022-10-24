@@ -23,8 +23,12 @@ body {
   background: var(--clr-100);
 }
 
+footer {
+  text-align: center;
+}
+
 img {
-  /* display: block; */
+  display: block;
   max-width: 100%;
   border-radius: 1em 1em 0em 0em;
 }
@@ -102,5 +106,54 @@ span {
   margin-right: 0.5em;
 }
 
-.span {
+/*---- DESKTOP ----*/
+@media (min-width: 600px) {
+  .card {
+    display: flex;
+    max-width: 37.5em;
+    border-radius: 1em;
+  }
+
+  .image-container {
+    flex: 1 1 100%;
+  }
+
+  .card img {
+    border-radius: 1em 0 0 1em;
+  }
+
+  .main-text {
+    flex: 1 1 100%;
+  }
+
+  .image-container img {
+    min-height: 100%;
+  }
+
+  .btn {
+    margin-top: 2em;
+    margin-bottom: 1.75em;
+    text-align: center;
+  }
+
+  .btn img {
+    display: inline-block;
+  }
+
+  .btn:hover {
+    background: darkgreen;
+    cursor: pointer;
+  }
+
+  .btn:active {
+    background: darkgreen;
+  }
+
+  .btn:focus {
+    background: darkgreen;
+  }
+
+  .btn:target {
+    background: darkgreen;
+  }
 }
