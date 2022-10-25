@@ -106,8 +106,19 @@ span {
   margin-right: 0.5em;
 }
 
+.desktop {
+  display: none;
+}
+
 /*---- DESKTOP ----*/
 @media (min-width: 600px) {
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
   .card {
     display: flex;
     max-width: 37.5em;
