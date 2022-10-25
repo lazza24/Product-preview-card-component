@@ -21,6 +21,12 @@ body {
   color: var(--clr-200);
   font-family: var(--ff-1);
   background: var(--clr-100);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
 }
 
 footer {
@@ -33,11 +39,11 @@ img {
   border-radius: 1em 1em 0em 0em;
 }
 
-.container {
+/* .container {
   display: grid;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .card {
   max-width: 375px;
@@ -104,6 +110,7 @@ span {
 
 .btn img {
   margin-right: 0.5em;
+  display: inline-block;
 }
 
 .desktop {
